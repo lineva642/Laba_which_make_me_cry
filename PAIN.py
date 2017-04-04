@@ -24,7 +24,7 @@ class WikiGraph:
         print('Загружаю граф из файла: ' + filename)
 
         with open(filename) as f:
-            for line in f.readlines:
+            for line in f.readlines():
                 if len(line.split())==2:
                     self._n=int(line[0])
                     self._nlinks=int(line[1])
